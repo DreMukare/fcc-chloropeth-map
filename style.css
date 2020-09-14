@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap");
 
 * {
-	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -21,4 +20,24 @@ body {
 
 #container {
 	position: relative;
+	margin: 0;
+}
+
+#tooltip {
+	display: none;
+	color: #240036;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 22px;
+	width: 220px;
+	padding: 2px;
+}
+
+#legend {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+	position: absolute;
+	left: 66em;
 }

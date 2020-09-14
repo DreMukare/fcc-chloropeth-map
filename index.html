@@ -12,13 +12,43 @@
 			Percentage of adults age 25 and older with a bachelor's degree or higher
 			(2010-2014)
 		</h2>
-		<div id="legend"></div>
 		<div id="container">
 			<div id="tooltip"></div>
 		</div>
+		<svg id="legend">
+			<g>
+				<rect x="10" y="0" width="40" height="40" fill="#FA0D9E"></rect>
+				<text x="60" y="20" fill="black">Less than 15%</text>
+			</g>
+			<g>
+				<rect x="10" y="40" width="40" height="40" fill="#D10BDE"></rect>
+				<text x="60" y="60" fill="black">Less than 30%</text>
+			</g>
+			<g>
+				<rect x="10" y="80" width="40" height="40" fill="#A300F5"></rect>
+				<text x="60" y="100" fill="black">Less than 45%</text>
+			</g>
+			<g>
+				<rect x="10" y="120" width="40" height="40" fill="#5E0BDE"></rect>
+				<text x="60" y="140" fill="black">Less than 60%</text>
+			</g>
+			<g>
+				<rect x="10" y="120" width="40" height="40" fill="#290DFA"></rect>
+				<text x="60" y="180" fill="black">Less than 75%</text>
+			</g>
+			<g>
+				<rect x="10" y="160" width="40" height="40" fill="#280CFA"></rect>
+				<text x="60" y="220" fill="black">Less than 90%</text>
+			</g>
+			<g>
+				<rect x="10" y="200" width="40" height="40" fill="#0A265D"></rect>
+				<text x="60" y="260" fill="black">More than 90%</text>
+			</g>
+		</svg>
 
 		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 		<script src="https://d3js.org/d3.v6.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 		<script src="app.js"></script>
 	</body>
 </html>
